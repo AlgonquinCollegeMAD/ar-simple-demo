@@ -11,6 +11,8 @@
 		10BDDDAB2B2777DA00D85B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDDDAA2B2777DA00D85B9D /* ContentView.swift */; };
 		10BDDDAD2B2777DC00D85B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BDDDAC2B2777DC00D85B9D /* Assets.xcassets */; };
 		10BDDDB02B2777DC00D85B9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BDDDAF2B2777DC00D85B9D /* Preview Assets.xcassets */; };
+		10BDDDB72B277A3000D85B9D /* robot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10BDDDB62B277A3000D85B9D /* robot.usdz */; };
+		10BDDDB92B277F9A00D85B9D /* RobotViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDDDB82B277F9A00D85B9D /* RobotViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		10BDDDAA2B2777DA00D85B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10BDDDAC2B2777DC00D85B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10BDDDAF2B2777DC00D85B9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10BDDDB62B277A3000D85B9D /* robot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot.usdz; sourceTree = "<group>"; };
+		10BDDDB82B277F9A00D85B9D /* RobotViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				10BDDDA82B2777DA00D85B9D /* AppDelegate.swift */,
+				10BDDDB62B277A3000D85B9D /* robot.usdz */,
 				10BDDDAA2B2777DA00D85B9D /* ContentView.swift */,
+				10BDDDB82B277F9A00D85B9D /* RobotViewContainer.swift */,
 				10BDDDAC2B2777DC00D85B9D /* Assets.xcassets */,
 				10BDDDAE2B2777DC00D85B9D /* Preview Content */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10BDDDB02B2777DC00D85B9D /* Preview Assets.xcassets in Resources */,
+				10BDDDB72B277A3000D85B9D /* robot.usdz in Resources */,
 				10BDDDAD2B2777DC00D85B9D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				10BDDDAB2B2777DA00D85B9D /* ContentView.swift in Sources */,
 				10BDDDA92B2777DA00D85B9D /* AppDelegate.swift in Sources */,
+				10BDDDB92B277F9A00D85B9D /* RobotViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
